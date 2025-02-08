@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomeScreen(title: 'Home'),
+      home: HomeScreen(title: "Sign Language Converter"),
     );
   }
 }
