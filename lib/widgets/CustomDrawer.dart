@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_hand_sign/screens/HandSignDictionaryScreen.dart';
 
 import '../screens/SettingScreen.dart';
 
@@ -28,6 +29,17 @@ class CustomDrawer extends StatelessWidget {
                 context,
                 MaterialPageRoute(
                   builder: (context) => const SettingScreen(title: 'Settings'),
+                ),
+              );
+
+            }),
+
+            _createDrawerItem(icon: Icons.handshake, text: 'Hand Sign Dictionary', onTap: () {
+
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const HandSignDictionaryScreen(title: "Hand Sign Dictionary"),
                 ),
               );
 
