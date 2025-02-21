@@ -75,6 +75,16 @@ flutter:
     - assets/ml/model_unquant.tflite
     - assets/ml/labels.txt
     - assets/splash_logo.jpg
+    - assets/dataset/0.JPG
+    - assets/dataset/1.JPG
+    - assets/dataset/2.JPG
+    - assets/dataset/3.JPG
+    - assets/dataset/4.JPG
+    - assets/dataset/5.JPG
+    - assets/dataset/6.JPG
+    - assets/dataset/7.JPG
+    - assets/dataset/8.JPG
+    - assets/dataset/9.JPG
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
