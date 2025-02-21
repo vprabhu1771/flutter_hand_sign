@@ -85,7 +85,32 @@ flutter:
     - assets/dataset/7.JPG
     - assets/dataset/8.JPG
     - assets/dataset/9.JPG
-
+    - assets/dataset/A.JPG
+    - assets/dataset/B.JPG
+    - assets/dataset/C.JPG
+    - assets/dataset/D.JPG
+    - assets/dataset/E.JPG
+    - assets/dataset/F.JPG
+    - assets/dataset/G.JPG
+    - assets/dataset/H.JPG
+    - assets/dataset/I.JPG
+    - assets/dataset/J.JPG
+    - assets/dataset/K.JPG
+    - assets/dataset/L.JPG
+    - assets/dataset/M.JPG
+    - assets/dataset/N.JPG
+    - assets/dataset/O.JPG
+    - assets/dataset/P.JPG
+    - assets/dataset/Q.JPG
+    - assets/dataset/R.JPG
+    - assets/dataset/S.JPG
+    - assets/dataset/T.JPG
+    - assets/dataset/U.JPG
+    - assets/dataset/V.JPG
+    - assets/dataset/W.JPG
+    - assets/dataset/X.JPG
+    - assets/dataset/Y.JPG
+    - assets/dataset/Z.JPG
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
 
