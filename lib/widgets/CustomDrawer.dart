@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_hand_sign/screens/HandSignDictionaryScreen.dart';
 import 'package:flutter_hand_sign/screens/LiveCamera.dart';
 
+import '../screens/LanguageToHandSignScreen ..dart';
 import '../screens/SettingScreen.dart';
 
 class CustomDrawer extends StatelessWidget {
@@ -41,6 +42,17 @@ class CustomDrawer extends StatelessWidget {
                 context,
                 MaterialPageRoute(
                   builder: (context) => const LiveCamera(title: "Live Translation"),
+                ),
+              );
+
+            }),
+
+            _createDrawerItem(icon: Icons.handshake, text: 'Language to Hand Sign', onTap: () {
+
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const LanguageToHandSignScreen(title: "Language to Hand Sign"),
                 ),
               );
 
