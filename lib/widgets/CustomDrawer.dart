@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hand_sign/screens/HandSignDictionaryScreen.dart';
+import 'package:flutter_hand_sign/screens/LiveCamera.dart';
 
 import '../screens/SettingScreen.dart';
 
@@ -11,18 +12,7 @@ class CustomDrawer extends StatelessWidget {
       child: SingleChildScrollView(
         child: Column(
           children: <Widget>[
-            // DrawerHeader(
-            //   decoration: BoxDecoration(
-            //     color: Colors.blue,
-            //   ),
-            //   child: Text(
-            //     'Menu',
-            //     style: TextStyle(
-            //       color: Colors.white,
-            //       fontSize: 24,
-            //     ),
-            //   ),
-            // ),
+            SizedBox(height: 30,),
             _createDrawerItem(icon: Icons.settings, text: 'Settings', onTap: () {
 
               Navigator.push(
@@ -40,6 +30,17 @@ class CustomDrawer extends StatelessWidget {
                 context,
                 MaterialPageRoute(
                   builder: (context) => const HandSignDictionaryScreen(title: "Hand Sign Dictionary"),
+                ),
+              );
+
+            }),
+
+            _createDrawerItem(icon: Icons.handshake, text: 'Live Translation', onTap: () {
+
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const LiveCamera(title: "Live Translation"),
                 ),
               );
 
