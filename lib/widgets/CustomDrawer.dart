@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_hand_sign/screens/HandSignDictionaryScreen.dart';
 import 'package:flutter_hand_sign/screens/LiveCamera.dart';
 
-import '../screens/LanguageToHandSignScreen ..dart';
+import '../screens/LanguageToHandSignScreen.dart';
 import '../screens/SettingScreen.dart';
 
 class CustomDrawer extends StatelessWidget {
