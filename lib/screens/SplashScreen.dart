@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 
 import 'HomeScreen.dart';
+import 'HomeScreen2.dart';
 
 class SplashScreen extends StatefulWidget {
   @override
@@ -15,7 +16,7 @@ class _SplashScreenState extends State<SplashScreen> {
     Timer(Duration(seconds: 3), () {
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (context) => HomeScreen(title: "Sign Language Converter")),
+        MaterialPageRoute(builder: (context) => HomeScreen(title: "Hand Sign")),
       ); // Navigate to HomeScreen
     });
   }
