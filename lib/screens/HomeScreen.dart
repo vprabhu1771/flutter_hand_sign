@@ -1,5 +1,6 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
+import 'package:flutter_hand_sign/screens/RecordHandSign.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:flutter_tflite/flutter_tflite.dart';
 
@@ -141,7 +142,15 @@ class _HomeScreenState extends State<HomeScreen> {
                   label: const Text("Gallery"),
                 ),
                 ElevatedButton.icon(
-                  onPressed: () => pickImage(ImageSource.camera),
+                  // onPressed: () => pickImage(ImageSource.camera),
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => RecordHandSignScreen(title: "Live"),
+                      ),
+                    );
+                  },
                   icon: const Icon(Icons.camera),
                   label: const Text("Camera"),
                 ),
